@@ -2,11 +2,15 @@ package simple;
 
 import org.testng.annotations.Test;
 
-public class Customer {
+public abstract class Customer {
+	
+	public abstract void add();
 	@Test
 	public void simple1()
 	{
 		System.out.println("preactice implementation");
+		System.out.println("preactice implementation");
+		
 	}
 	@Test
 	public void simplePro()
